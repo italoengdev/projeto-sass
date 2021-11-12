@@ -170,6 +170,9 @@ $layout-margin-size: 10px;
     }
 
     &__sidebar {
+        @include for-phone-only {
+      width: 90%;
+    }
         width: 25%;
         padding: 40px 10px;
     }
